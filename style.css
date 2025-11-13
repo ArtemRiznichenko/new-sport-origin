@@ -1,3 +1,4 @@
+/* header */
 .header-list-link{
     display: none;
 }
@@ -13,6 +14,7 @@ line-height: 24px;
 letter-spacing: 0%;
 color:#F4F2F1 ;
 }
+/* section-first */
 .section-first-title{
  font-family: Montserrat;
 font-weight: 400;
@@ -45,7 +47,9 @@ padding-left:103px;
 padding-right:103px;
 padding-top: 16px;
 padding-bottom: 16px;
+
 }
+/* section-secon */
 .section-second-title{
  font-family: Montserrat;
 font-weight: 400;
@@ -65,6 +69,7 @@ line-height: 24px;
 letter-spacing: 0.5%;
 color: #F4F2F1;
 }
+/* section-three */
 .section-three-title{
     font-family: Montserrat;
 font-weight: 400;
@@ -74,4 +79,168 @@ line-height: 48px;
 letter-spacing: 0px;
 vertical-align: middle;
 color: #F4F2F1;
+}
+.section-three-list-item-months{
+    font-family: Lato;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 48px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #F4F2F1;
+}
+.section-three-list-item-price{
+    font-family: Lato;
+font-weight: 700;
+font-style: Bold;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #F4F2F1;
+}
+.section-three-list-item-time{
+    font-family: Lato;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #F4F2F1;
+}
+.section-three-btn{
+    font-family: Lato;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 32px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #F4F2F1;
+background-color: #FF3002;
+padding-left: 15px;
+padding-right: 15px;
+padding-bottom: 4px;
+}
+.section-three-list-item-disposable{
+    font-family: Lato;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: #F4F2F1;
+}
+/* sport-bar */
+.sport-bar-title{
+   font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 48px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #F4F2F1;
+}
+.sport-bar-list-btn{
+    font-family: Lato;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #F4F2F1;
+}
+.sportbar-list-product-title{
+   font-family: Lato;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+ color: #000000;
+}
+.sportbar-list-product-text{
+    font-family: Lato;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: #FF3002;
+}
+.sportbar-list-product-btn{
+    font-family: Lato;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5%;
+text-align: center;
+vertical-align: middle;
+color: #FF3002;
+}
+/* gelery */
+.gelery-text{
+   font-family: Montserrat;
+font-weight: 400;
+font-style: Regular;
+font-size: 24px;
+line-height: 48px;
+letter-spacing: 0px;
+vertical-align: middle;
+ color: #F4F2F1;
+}
+/* contacts */
+.contacts-text{
+    font-family: Montserrat;
+font-weight: 600;
+font-style: Regular;
+font-size: 24px;
+line-height: 48px;
+letter-spacing: 0px;
+vertical-align: middle;
+color: #F4F2F1;
+}
+.contacts-list-item{
+    font-family: Lato;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #F4F2F1;
+}
+.contacts-list-tel{
+    display: none;
+}
+.contacts-list-adr{
+    display: none;
+}
+.contacts-list-mode{
+    display: none;
+}
+/* footer */
+.footer-list-item{
+    display: none;
+}
+.footer-list-second-item{
+    font-family: Lato;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0%;
+/* color: #F4F2F1; */
 }
