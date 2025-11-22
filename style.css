@@ -1,4 +1,35 @@
+li{
+    list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+@media screen and (min-width:744px){
+.container{
+    width: 710px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:1440px){
+    .container{
+        width: 1280px;
+        margin: 0 auto;
+    }
+}
+}
 /* header */
+.header{
+    padding-top: 30px;
+}
 .header-list-link{
     display: none;
 }
@@ -15,6 +46,10 @@ letter-spacing: 0%;
 color:#F4F2F1 ;
 }
 /* section-first */
+.section-first{
+    padding-top: 86px;
+padding-bottom: 30px;
+}
 .section-first-title{
  font-family: Montserrat;
 font-weight: 400;
@@ -49,7 +84,11 @@ padding-top: 16px;
 padding-bottom: 16px;
 
 }
-/* section-secon */
+/* section-second */
+.section-second{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
 .section-second-title{
  font-family: Montserrat;
 font-weight: 400;
@@ -70,6 +109,9 @@ letter-spacing: 0.5%;
 color: #F4F2F1;
 }
 /* section-three */
+.section-three{
+    padding-bottom: 31px;
+}
 .section-three-title{
     font-family: Montserrat;
 font-weight: 400;
@@ -80,8 +122,9 @@ letter-spacing: 0px;
 vertical-align: middle;
 color: #F4F2F1;
 }
-.section-three-list-item-months{
-    font-family: Lato;
+.abonements-list-duration{
+
+font-family: Lato;
 font-weight: 700;
 font-style: Bold;
 font-size: 18px;
@@ -89,9 +132,10 @@ line-height: 48px;
 letter-spacing: 0px;
 vertical-align: middle;
 color: #F4F2F1;
+padding-bottom:12px ;
 }
-.section-three-list-item-price{
-    font-family: Lato;
+.abonements-list-prise{
+font-family: Lato;
 font-weight: 700;
 font-style: Bold;
 font-size: 28px;
@@ -99,20 +143,23 @@ line-height: 100%;
 letter-spacing: 0%;
 vertical-align: middle;
 color: #F4F2F1;
+padding-bottom: 32px;
 }
-.section-three-list-item-time{
-    font-family: Lato;
+.abonements-list-second-duration{
+font-family: Lato;
 font-weight: 400;
 font-style: Regular;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0%;
-text-align: center;
+padding-bottom: 30px;
 vertical-align: middle;
 color: #F4F2F1;
+max-width: 145px;
+text-align: center;
 }
-.section-three-btn{
-    font-family: Lato;
+.abonements-list-btn{
+font-family: Lato;
 font-weight: 400;
 font-style: Regular;
 font-size: 20px;
@@ -121,11 +168,34 @@ letter-spacing: 0%;
 vertical-align: middle;
 color: #F4F2F1;
 background-color: #FF3002;
-padding-left: 15px;
+padding-left:15px ;
 padding-right: 15px;
-padding-bottom: 4px;
+padding-bottom:px 8px;
+border-radius: 5px;
+gap: 10px;
+
 }
-.section-three-list-item-disposable{
+.abonements-list-item{
+    background-color: #43484DB2;
+padding-left:5px;
+padding-right:8px;
+padding-bottom:20px;
+padding-top:10px;
+max-width: 163px;
+border-radius: 5px;
+text-align: center;
+}
+.abonements-list-div{
+display: flex;
+justify-content: center;
+flex-wrap:wrap;
+column-gap: 17px;
+row-gap: 20px;
+max-width: 343px;
+margin: 0 auto;
+/* outline: 2px solid black ; */
+}
+.abonements-list-duration-disposable{
     font-family: Lato;
 font-weight: 400;
 font-style: Regular;
@@ -136,7 +206,38 @@ text-align: center;
 vertical-align: middle;
 color: #F4F2F1;
 }
+.abonements-list-item-second{
+    max-width: 344px;
+    text-align: center;
+    margin-top: 19.57px;
+    border-radius: 5px;
+}
+.abonements-list-item-second-div{
+    /* outline: 2px solid black; */
+    max-width: 344px;
+    margin: 0 auto;
+}
+.abonements-list-div-text{
+    display: flex;
+justify-content: center;
+    column-gap:5px;
+}
+.abonements-list-prise-second{
+    font-family: Lato;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+line-height: 48px;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: #F4F2F1;
+}
 /* sport-bar */
+.sport-bar{
+   padding-top: 40px; 
+   padding-bottom: 40px;
+}
 .sport-bar-title{
    font-family: Montserrat;
 font-weight: 400;
@@ -191,6 +292,9 @@ vertical-align: middle;
 color: #FF3002;
 }
 /* gelery */
+.gelery{
+    padding-bottom: 167.5px;
+}
 .gelery-text{
    font-family: Montserrat;
 font-weight: 400;
@@ -202,9 +306,12 @@ vertical-align: middle;
  color: #F4F2F1;
 }
 /* contacts */
+.contacts{
+    padding-top: 40px;
+}
 .contacts-text{
     font-family: Montserrat;
-font-weight: 600;
+font-weight: 400;
 font-style: Regular;
 font-size: 24px;
 line-height: 48px;
@@ -242,5 +349,5 @@ font-style: Regular;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0%;
-/* color: #F4F2F1; */
+color: #F4F2F1;
 }

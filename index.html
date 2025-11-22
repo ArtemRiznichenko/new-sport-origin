@@ -3,29 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="header">
+        <div class="container">
+        <img class="header-img" src="./img/259940307_3125144394423019_9176362279930435644_n 2.svg" alt="">
         <ul class="header-list">
             <li class="header-list-item"><a class="header-list-link" href="">Про нас</a></li>
             <li class="header-list-item"><a class="header-list-link" href="">Абонементи</a></li>
             <li class="header-list-item"><a class="header-list-link" href="">Спорт-бар</a></li>
             <li class="header-list-item"><a class="header-list-link" href="">Галерея</a></li>
             <li class="header-list-item"><a class="header-list-link" href="">Контакти</a></li>
-            <li class="header-list-item"><img class="header-list-img" src="./img/Vector.svg" alt=""></li>
+            <li class="header-list-item"><img class="header-list-img" src="./img/Vector-2.svg" alt=""></li>
             <li class="header-list-item"><a class="header-list-link-nomber" href="">+380 95 033 5563</a></li>
         </ul>
+        </div>
     </header>
+    <div class="container">
     <section class="section-first">
         <h1 class="section-first-title">Victoria</h1>
         <p class="section-first-text">Сильне тіло, сильний дух</p>
         <button class="section-first-btn">Записатися</button>
+        <ul>
+            <li class="section-first-item"><img class="section-first-img" src="./img/Line 37.png" alt=""></li>
+            <li class="section-first-item"><img class="section-first-img" src="./img/Vector.png" alt=""></li>
+            <li class="section-first-item"><img class="section-first-img" src="./img/ph_instagram-logo-light.png" alt=""></li>
+            <li class="section-first-item"><img class="section-first-img" src="./img/Line 37.png" alt=""></li>
+        </ul>
+        </div>
     </section>
     <section class="section-second">
+        <div class="container">
         <h2 class="section-second-title">Про нас </h2>
-        <img src="" alt="">
+        <img src="./img/Rectangle 31.png" alt="">
         <p class="section-second-text"> Спортивний клуб «Вікторія» — це чудове місце
              для активного відпочинку, а також нових знайомств і прекрасного 
              спілкування. У нашому клубі ви гарантовано отримаєте гарний настрій 
@@ -36,45 +55,59 @@
               людей в одній зоні клубу, щоб тренувальний процес приносив задоволення 
               і був комфортним й приємним абсолютно для кожного. Основний принцип 
               нашої роботи — надання послуг кращої якості при збереженні помірних цін.</p>
+              </div>
     </section>
     <section class="section-three">
+        <div class="container">
         <h2 class="section-three-title">Абонементи</h2>
-        <ul class="section-three-list">
-            <li class="section-three-list-item-months">1 місяць безліміт </li>
-            <li class="section-three-list-item-price">1200</li>
-            <li class="section-three-list-item-time">термін дії абонемента 30 днів</li>
-            <button class="section-three-btn">Записатися</button>
+        <ul class="abonements-list">
+            <div class="abonements-list-div">
+            <li class="abonements-list-item">
+                <p class="abonements-list-duration">1 місяць безліміт </p>
+                <p class="abonements-list-prise">1200</p>
+                <p class="abonements-list-second-duration">термін дії абонемента 30 днів</p>
+                <button class="abonements-list-btn">Записатися</button>
+            </li>
+            <li class="abonements-list-item">
+                <p class="abonements-list-duration">3 місяці безліміт  </p>
+                <p class="abonements-list-prise">3200</p>
+                <p class="abonements-list-second-duration">термін дії абонемента 90 днів</p>
+                <button  class="abonements-list-btn">Записатися</button>
+            </li>
+            <li class="abonements-list-item">
+                <p class="abonements-list-duration">6 місяців безліміт </p>
+                <p class="abonements-list-prise">5500</p>
+                <p class="abonements-list-second-duration">термін дії абонемента 180 днів</p>
+                <button  class="abonements-list-btn">Записатися</button>
+            </li>
+            <li class="abonements-list-item">
+                <p class="abonements-list-duration">12 місяців безліміт</p>
+                <p class="abonements-list-prise">10000</p>
+                <p class="abonements-list-second-duration">термін дії абонемента 360 днів</p>
+                <button class="abonements-list-btn" >Записатися</button>
+            </li>
+            </div>
+            <div class="abonements-list-item-second-div">
+            <li class="abonements-list-item abonements-list-item-second">
+                <div class="abonements-list-div-text">
+                <p class="abonements-list-duration-disposable"> Разове тренування при наявності клубної карти</p>
+                <p class="abonements-list-prise-second">150</p>
+                </div>
+                <button class="abonements-list-btn" >Записатися</button>
+            </li>
+            <li class="abonements-list-item abonements-list-item-second">
+                <div class="abonements-list-div-text">
+                <p class="abonements-list-duration-disposable">Разове тренування без клубної карти</p>
+                <p class="abonements-list-prise-second">250</p>
+                </div>
+                <button  class="abonements-list-btn">Записатися</button>
+            </li>
+            </div>
         </ul>
-        <ul class="section-three-list">
-            <li class="section-three-list-item-months">3 місяці безліміт  </li>
-            <li class="section-three-list-item-price">3200</li>
-            <li class="section-three-list-item-time">термін дії абонемента 90 днів</li>
-            <button class="section-three-btn">Записатися</button>
-        </ul>
-        <ul class="section-three-list">
-            <li class="section-three-list-item-months">6 місяців безліміт </li>
-            <li class="section-three-list-item-price">5500</li>
-            <li class="section-three-list-item-time">термін дії абонемента 180 днів</li>
-            <button class="section-three-btn">Записатися</button>
-        </ul>
-        <ul class="section-three-list">
-            <li class="section-three-list-item-months">12 місяців безліміт </li>
-            <li class="section-three-list-item-price">10000</li>
-            <li class="section-three-list-item-time">термін дії абонемента 360 днів</li>
-            <button class="section-three-btn">Записатися</button>
-        </ul>
-        <ul class="section-three-list-disposable">
-            <li class="section-three-list-item-disposable">Разове тренування без клубної карти</li>
-            <li class="section-three-list-item-price">250</li>
-            <button class="section-three-btn">Записатися</button>
-        </ul>
-        <ul class="section-three-list-disposable">
-            <li class="section-three-list-item-disposable">Разове тренування при наявності клубної карти </li>
-            <li class="section-three-list-item-price">150</li>
-            <button class="section-three-btn">Записатися</button>
-        </ul>
+        </div>
     </section>
     <section class="sport-bar">
+         <div class="container">
         <h2 class="sport-bar-title">Спорт-бар</h2>
         <ul class="sport-bar-filter-list">
             <li class="sport-bar-list-item"><button class="sport-bar-list-btn">Амінокислоти</button></li>
@@ -85,62 +118,64 @@
 
         <ul class="sportbar-list-product">
             <li class="sportbar-list-product-item">
-                <img class="sportbar-list-product-img" src="./img/image 1 (1).png" alt="">
-                <h3 class="sportbar-list-product-title">Essential AMIN.O. Energy від Optimum Nutrition</h3>
-                <p class="sportbar-list-product-text">35 грн </p>
-                <button class="sportbar-list-product-btn">Детальніше</button>
-            </li>
-            <li  class="sportbar-list-product">
-                <img class="sportbar-list-product-img" src="./img/image 1 (2).png" alt="">
-                <h3 class="sportbar-list-product-title">Essential AMIN.O. Energy від Optimum Nutrition</h3>
-                <p class="sportbar-list-product-text">35 грн </p>
-                <button class="sportbar-list-product-btn">Детальніше</button>
-            </li>
-            <li class="sportbar-list-product">
                 <img class="sportbar-list-product-img" src="./img/image 1.png" alt="">
                 <h3 class="sportbar-list-product-title">Essential AMIN.O. Energy від Optimum Nutrition</h3>
                 <p class="sportbar-list-product-text">35 грн </p>
                 <button class="sportbar-list-product-btn">Детальніше</button>
             </li>
+            <li  class="sportbar-list-product">
+                <img class="sportbar-list-product-img" src="./img/image 1-2.png" alt="">
+                <h3 class="sportbar-list-product-title">Essential AMIN.O. Energy від Optimum Nutrition</h3>
+                <p class="sportbar-list-product-text">35 грн </p>
+                <button class="sportbar-list-product-btn">Детальніше</button>
+            </li>
             <li class="sportbar-list-product">
-                <img class="sportbar-list-product-img" src="./img/image 1 (5).png" alt="">
+                <img class="sportbar-list-product-img" src="./img/image 1-3.png" alt="">
+                <h3 class="sportbar-list-product-title">Essential AMIN.O. Energy від Optimum Nutrition</h3>
+                <p class="sportbar-list-product-text">35 грн </p>
+                <button class="sportbar-list-product-btn">Детальніше</button>
+            </li>
+            <li class="sportbar-list-product">
+                <img class="sportbar-list-product-img" src="./img/image 1-6.png" alt="">
                 <h3 class="sportbar-list-product-title">Гейнер Scitec Nutrition Jumbo</h3>
                 <p class="sportbar-list-product-text">35 грн </p>
                 <button class="sportbar-list-product-btn">Детальніше</button>
             </li>
             <li class="sportbar-list-product">
-                <img class="sportbar-list-product-img" src="./img/image 1 (6).png" alt="">
+                <img class="sportbar-list-product-img" src="./img/image 1-7.png" alt="">
                 <h3 class="sportbar-list-product-title">Яловичиний гейнер 100% BeefMuscle</h3>
                 <p class="sportbar-list-product-text">35 грн </p>
                 <button class="sportbar-list-product-btn">Детальніше</button>
             </li>
             <li class="sportbar-list-product">
-                <img class="sportbar-list-product-img" src="./img/image 1 (7).png" alt="">
+                <img class="sportbar-list-product-img" src="./img/image 1-10.png" alt="">
                 <h3 class="sportbar-list-product-title">Genius Nutrition iCarnitine</h3>
                 <p class="sportbar-list-product-text">30 грн </p>
                 <button class="sportbar-list-product-btn">Детальніше</button>
             </li>
             <li class="sportbar-list-product">
-                <img class="sportbar-list-product-img" src="./img/image  батончик (1).png" alt="">
+                <img class="sportbar-list-product-img" src="./img/image 1-11.png" alt="">
                 <h3 class="sportbar-list-product-title">Горіховий батончик Power Pro 36%.В батончиках міститься: 36% протеїну</h3>
                 <p class="sportbar-list-product-text">45 грн </p>
                 <button class="sportbar-list-product-btn">Детальніше</button>
             </li>
             <li class="sportbar-list-product">
-                <img class="sportbar-list-product-img" src="./img/image 1 (батончик).png" alt="">
+                <img class="sportbar-list-product-img" src="./img/image 1-12.png" alt="">
                 <h3 class="sportbar-list-product-title">Горіховий батончик Power Pro 36%.В батончиках міститься: 36% протеїну</h3>
                 <p class="sportbar-list-product-text">45 грн </p>
                 <button class="sportbar-list-product-btn">Детальніше</button>
             </li>
             <li class="sportbar-list-product">
-                <img class="sportbar-list-product-img" src="./img/image 1 батончик.png" alt="">
+                <img class="sportbar-list-product-img" src="./img/image 1-13.png" alt="">
                 <h3 class="sportbar-list-product-title">Горіховий батончик Power Pro 36%.В батончиках міститься: 36% протеїну</h3>
                 <p class="sportbar-list-product-text">45 грн </p>
                 <button class="sportbar-list-product-btn">Детальніше</button>
             </li>
         </ul>
+        </div>
     </section>
     <section class="gelery">
+        <div class="container">
         <h2 class="gelery-text">Галерея</h2>
         <ul class="gelery-list">
             <li class="gelery-list-item"><img class="gelery-list-img" src="./img/Rectangle 8.png" alt=""></li>
@@ -149,28 +184,31 @@
             <li class="gelery-list-item"><img class="gelery-list-img"  src="./img/Rectangle 4.png" alt=""></li>
             <li class="gelery-list-item"><img class="gelery-list-img"  src="./img/Rectangle 9.png" alt=""></li>
             <li class="gelery-list-item"><img class="gelery-list-img"  src="./img/Rectangle 10.png" alt=""></li>
-            <li class="gelery-list-item"><img class="gelery-list-img"  src="./img/Rectangle 11.png" alt=""></li>
+            <li class="gelery-list-item"><img class="gelery-list-img"  src="./img/image 1-11.png" alt=""></li>
         </ul>
+        </div>
     </section>
     <section class="contacts">
+        <div class="container">
         <h2 class="contacts-text">Контакти </h2>
         <ul class="contacts-list">
-            <li class="contacts-list-item"><img class="contacts-list-img" src="./img/Vector.svg" alt=""></li>
-            <li class="contacts-list-item">Телефон:</li>
+            <li class="contacts-list-item-img"><img class="contacts-list-img" src="./img/Vector-2.svg" alt=""></li>
+            <li class="contacts-list-item contacts-list-tel">Телефон:</li>
             <li class="contacts-list-item">+380950335563</li>
-            <li class="contacts-list-item"><img class="contacts-list-img" src="./img/Vector (1).svg" alt=""></li>
-            <li class="contacts-list-item">Адреса:</li>
+            <li class="contacts-list-item-img"><img class="contacts-list-img" src="./img/Vector-3.svg" alt=""></li>
+            <li class="contacts-list-item contacts-list-adr">Адреса:</li>
             <li class="contacts-list-item">вул.Спортивна, 3, Остриця, Чернівецька обл.</li>
-            <li class="contacts-list-item"><img class="contacts-list-img" src="./img/Vector (2).svg" alt=""></li>
-            <li class="contacts-list-item">Режим роботи:</li>
+            <li class="contacts-list-item-img"><img class="contacts-list-img" src="./img/🦆 icon _calendar_.svg" alt=""></li>
+            <li class="contacts-list-item contacts-list-mode">Режим роботи:</li>
             <li class="contacts-list-item">Понеділок -Пʼятниця 8:00-21:30</li>
             <li class="contacts-list-item">Субота      10:00-19:00</li>
             <li class="contacts-list-item">Неділя       вихідний.</li>
         </ul>
-        
+        </div>
     </section>
     <footer class="footer">
-        <img class="footer-img" src="./img/259940307_3125144394423019_9176362279930435644_n 2 (1).png" alt="">
+        <div class="container">
+        <img class="footer-img" src="./img/259940307_3125144394423019_9176362279930435644_n 2.svg" alt="">
         <ul class="footer-list">
             <li class="footer-list-item">Про нас </li>
             <li class="footer-list-item">Абонементи </li>
@@ -179,9 +217,10 @@
             <li class="footer-list-item">Контакти</li>
         </ul>
         <ul class="footer-list-second">
-            <li class="footer-list-second-item"><img src="./img/Vector.svg" alt=""></li>
+            <li class="footer-list-second-item-img"><img src="" alt=""></li>
             <li class="footer-list-second-item">+380 95 033 5563</li>
         </ul>
+        </div>
     </footer>
 </body>
 </html>
