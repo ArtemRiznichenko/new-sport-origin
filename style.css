@@ -177,11 +177,11 @@ gap: 10px;
 }
 .abonements-list-item{
     background-color: #43484DB2;
-padding-left:5px;
-padding-right:8px;
+padding-left:1px;
+padding-right:1px;
 padding-bottom:20px;
 padding-top:10px;
-max-width: 163px;
+width: 163px;
 border-radius: 5px;
 text-align: center;
 }
@@ -234,6 +234,7 @@ vertical-align: middle;
 color: #F4F2F1;
 }
 /* sport-bar */
+
 .sport-bar{
    padding-top: 40px; 
    padding-bottom: 40px;
@@ -257,6 +258,8 @@ line-height: 24px;
 letter-spacing: 0%;
 vertical-align: middle;
 color: #F4F2F1;
+background-color: #43484D;
+width: 343px;
 }
 .sportbar-list-product-title{
    font-family: Lato;
